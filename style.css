@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2A2F4F;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: medium;
+  line-height: normal;
+  text-align: center;
+}
+
+h1 {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+  color: #2A2F4F;
+  text-align: center;
+  margin-top: 0.5em;
+}
+
+
+.btn-light-purple:hover {
+  color: #917FB3;
+  text-align: center;
+  background-color: #2A2F4F;
+  box-shadow: 3px 3px rgba(255, 255, 255);
+}
+
+li {
+  list-style-type: none;
+  text-align: center
+}
+
+img {
+  border-radius: 50%;
+  width: 17em;
+  border: 1px solid white;
+  margin-bottom: 1em;
+}
+
+.card {
+  box-shadow: 3px 3px rgba(255, 255, 255);
+  background-color: #917FB3;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.btn-light-purple {
+  padding: 10px 20px;
+  text-align: center;
+  background-color: #E5BEEC;
+  box-shadow: 3px 3px #2A2F4F;
+  text-decoration: none;
+  color: #2A2F4F;
+  text-align: center;
+}
+
+.menu li {
+  display: inline;
+  font-size: xx-large;
+  text-decoration: none;
+}
+
+.menu i {
+  color: #2A2F4F;
+}
+
+.menu i:hover {
+  color: #E5BEEC;
+}
+
+/* para hacer el diseno responsive */
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
